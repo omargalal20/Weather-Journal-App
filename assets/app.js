@@ -1,6 +1,6 @@
 // Personal API Key for OpenWeatherMap API
-let baseURL = ''
-let apiKey = '';
+let baseURL = 'http://api.openweathermap.org/data/2.5/weather?q='
+let apiKey = '&appid=9e28c19cd472ab319fdcc34b61bade1a';
 
 const generateButton = document.body.querySelector('#generate');
 
